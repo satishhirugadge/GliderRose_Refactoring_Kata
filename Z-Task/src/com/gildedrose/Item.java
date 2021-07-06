@@ -1,5 +1,5 @@
 package com.gildedrose;
-
+ugeiuerwhgiherkujhberuigherughiuernhg
 public class Item {
 
     public String name;
