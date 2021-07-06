@@ -49,10 +49,10 @@ class GildedRose {
 //		} else {
 //			updatedQuality = quality;
 //		}
-//		if (updatedQuality > 50) {
-//			updatedQuality = 50;
-//		}
-//		return updatedQuality;
+		if (updatedQuality > 50) {
+			updatedQuality = 50;
+		}
+		return updatedQuality;
 	}
 
 	/**
