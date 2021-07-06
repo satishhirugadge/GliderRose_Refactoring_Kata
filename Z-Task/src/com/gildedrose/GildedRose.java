@@ -3,6 +3,7 @@ package com.gildedrose;
 class GildedRose {
     Item[] items;
 
+
     public GildedRose(Item[] items) {
         this.items = items;
     }
@@ -22,6 +23,8 @@ class GildedRose {
 		}
 	}
 
+
+
 	/**
 	 * This method is for increasing quality based on sellIn value.
 	 * <ul>
@@ -36,20 +39,20 @@ class GildedRose {
 	 * @return updatedQuality
 	 */
 	private int increaseQuality(int sellIn, int quality) {
-		int updatedQuality = 0;
-		if (sellIn <= 0) {
-			updatedQuality = 0;
-		} else if (sellIn <= 10 && sellIn > 5) {
-			updatedQuality = quality + 2;
-		} else if (sellIn <= 5 && sellIn > 0) {
-			updatedQuality = quality + 3;
-		} else {
-			updatedQuality = quality;
-		}
-		if (updatedQuality > 50) {
-			updatedQuality = 50;
-		}
-		return updatedQuality;
+//		int updatedQuality = 0;
+//		if (sellIn <= 0) {
+//			updatedQuality = 0;
+//		} else if (sellIn <= 10 && sellIn > 5) {
+//			updatedQuality = quality + 2;
+//		} else if (sellIn <= 5 && sellIn > 0) {
+//			updatedQuality = quality + 3;
+//		} else {
+//			updatedQuality = quality;
+//		}
+//		if (updatedQuality > 50) {
+//			updatedQuality = 50;
+//		}
+//		return updatedQuality;
 	}
 
 	/**
