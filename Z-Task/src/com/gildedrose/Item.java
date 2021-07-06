@@ -1,5 +1,5 @@
 package com.gildedrose;
-ugeiuerwhgiherkujhberuigherughiuernhg
+system.out.println("Satish");
 public class Item {
 
     public String name;
